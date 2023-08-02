@@ -20,3 +20,7 @@ twist_mux:
         topic: /autodock/cmd_vel
         timeout: 0.5
         priority: 15
+      trolleydocking:
+        topic: /cmd_vel_td
+        timeout: 0.5
+        priority: 5
